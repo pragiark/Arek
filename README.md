@@ -7,6 +7,6 @@ Project for getting to know GIt with support software
 
 ## Technologies
 - Git 2.20
-- Pycharm 2018.7.7
+- Pycharm 2019.2.2
 - Python  3.7
 - Windows 10
