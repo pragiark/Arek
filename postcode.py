@@ -17,4 +17,3 @@ for i in range(start, stop):
     i = str(i)
     lista.append(i[0:2] + "-" + i[2:5])
 print(lista)
-
