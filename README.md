@@ -2,11 +2,11 @@
 Project for getting to know GIt with support software
 
 ## Source
-[![alt text](https://mercurywebsc.pl/templates/protostar/img/logo.png)](https://as.pl/as)
+[![alt text](https://mercurywebsc.pl/templates/protostar/img/logo.png)](https://as.pl/asf)
 
 
 ## Technologies
-- Git v2.20
-- Pycharm x2018.3.7
-- Python v 3.7
-- Windows v10
+- Git 2.20
+- Pycharm 2018.7.7
+- Python  3.7
+- Windows 10
