@@ -1,0 +1,17 @@
+import random
+number = random.randint(1,100)
+
+print("Zgadnij liczbę o której myslę od 1 do 100 masz 10 prób ")
+check = 0
+
+if check <= 10:
+    print(check)
+    if (int(input()) < number):
+        print("za mała")
+    if (int(input()) > number):
+        print("za za duża")
+    if (int(input()) == number):
+        print("Zgadłeś to dokładnie ta liczba")
+    check = check + 1
+else:
+    print("Przegrałeś")
