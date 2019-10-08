@@ -21,8 +21,8 @@ class IceCreamStand(Restaurant):
 
     def describe_flavors(self):
         """"describe flavors"""
-        for ass in self.flavors:
-            print(ass)
+        for asd in self.flavors:
+            print(asd)
 
 
 
