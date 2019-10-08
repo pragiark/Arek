@@ -13,12 +13,29 @@ class Restaurant():
         """"Open hours"""
         print("Restaurant " + self.restaurant_name + " has open at: 6-22")
 
-restaurant1 = Restaurant("Goracy Piec", "Pizzeria")
-restaurant2 = Restaurant("Placek babuni", "Plackarnia")
-restaurant3 = Restaurant("Pierożek", "Bar Mleczny")
+class IceCreamStand(Restaurant):
+    """"Creating Inherited class"""
+    def __init__(self, restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavors = ["Waniliowe", "Truskawkowe", "Czekoladowe", "Kokosowe"]
 
-restaurant1.describe_restaurant()
-restaurant2.describe_restaurant()
-restaurant3.describe_restaurant()
+    def describe_flavors(self):
+        """"describe flavors"""
+        for ass in self.flavors:
+            print(ass)
+
+
+
+#restaurant1 = Restaurant("Goracy Piec", "Pizzeria")
+#restaurant2 = Restaurant("Placek babuni", "Plackarnia")
+#restaurant3 = Restaurant("Pierożek", "Bar Mleczny")
+
+#restaurant1.describe_restaurant()
+#restaurant2.describe_restaurant()
+#restaurant3.describe_restaurant()
 
 #restaurant.open_restairant()
+
+pingwin = IceCreamStand("Pingwin", "Lodziarnia")
+pingwin.describe_restaurant()
+pingwin.describe_flavors()
