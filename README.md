@@ -1,5 +1,5 @@
 # Postcode test Git
-Project for getting to know GIt with support software
+Learning my Python and Git
 
 ## Source
 [![alt text](https://mercurywebsc.pl/templates/protostar/img/logo.png)](https://as.pl/asf)
