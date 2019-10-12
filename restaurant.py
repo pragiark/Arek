@@ -23,19 +23,3 @@ class IceCreamStand(Restaurant):
         """"describe flavors"""
         for asd in self.flavors:
             print(asd)
-
-
-
-#restaurant1 = Restaurant("Goracy Piec", "Pizzeria")
-#restaurant2 = Restaurant("Placek babuni", "Plackarnia")
-#restaurant3 = Restaurant("Pierożek", "Bar Mleczny")
-
-#restaurant1.describe_restaurant()
-#restaurant2.describe_restaurant()
-#restaurant3.describe_restaurant()
-
-#restaurant.open_restairant()
-
-pingwin = IceCreamStand("Pingwin", "Lodziarnia")
-pingwin.describe_restaurant()
-pingwin.describe_flavors()
