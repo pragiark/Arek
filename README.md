@@ -10,5 +10,3 @@ Learning my Python and Git
 - Pycharm 2019.2.2
 - Python  3.7
 - Windows 10 sss
-
-xxxxx
